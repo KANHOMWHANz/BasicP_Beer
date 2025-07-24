@@ -54,6 +54,15 @@ while gamestart:
             print("เลือดของมอนเตอร์ : " ,monster)
             print("จำนวนครั้งในการโจมตีที่เหลืออยู่", count - i)
             weapon = int(input("เลือกอาวุธในรอบนี้ : "))
+            print("อาวุธที่คุณเลือก" ,weapon)
+            if (weapon == 1):
+                monster -= weapon1
+                if (monster < 0):
+                    print("ตีแรงเกินไปเลือดมอนเตอร์เด้งไปเหลือ 20 !!!")
+                    monster = 20
+            elif
+
+            else
             
 
     if choose == 2:
