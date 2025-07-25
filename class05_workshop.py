@@ -22,7 +22,10 @@ while open:
         print("[3] ชอบเหมือนกัน")
         pang = int(input(" "))
         print("แป้งที่คุณเลือก",pang)
-        if pang == 1 or 2:
+        if pang == 3:
+            print("เสียใจด้วย มีแฟนละจร้า")
+            break
+        elif pang == 1 or 2:
             print("--------เลือกหน้าที่อยากอีส-------")
             print("[1] หน้าตำซั่ว")
             print("[2] หน้าพี่ติ๊ก")
@@ -31,8 +34,10 @@ while open:
             face = int(input(" "))
             if face == 1:
                 print(show(pang,face))
-        elif pang == 3:
-            print("เสียใจด้วย มีแฟนละจร้า")
+                break
+        
+            
+
     elif option == 2:
         print("อ๋า โชคดีละกั้น")
-    break
+        break
